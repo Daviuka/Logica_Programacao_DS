@@ -28,6 +28,23 @@ num1 += 1
 #num1 //= 1
 #num1 **= 1
 #num1 %= 1
+# FIXME:Operadoes matemáticos
+print("operadores matemáticos no print")
+print(num1 + num2)
+print(num1 - num2)
+print(num1 * num2)
+print(num1 / num2)
+print(num1 ** num2)
+print(num1 // num2)
+print(num1 % num2)
+# FIXME:Operadores comparativos
+print("Operadores comparativos")
+print(num1 > num2) # maior que
+print(num1 < num2) # menor que
+print(num1 == num2) # igualdade
+print(num1 != num2) # diferente
+print(num1 <= num2) # menor ou igual
+
 
 print("\n")
 print('-----------------')
@@ -45,3 +62,4 @@ print('-----------------')
 print(f'O numero digitado + 1 é: {num1}')
 print('-----------------')
 print("\n")
+
