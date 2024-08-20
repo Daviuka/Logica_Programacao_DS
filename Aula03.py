@@ -1,15 +1,17 @@
 nome = 'Davi'
 idade = 17
 
+print('-----------------')
 print(nome)
 print(f"O nome é {nome}")
-
+print('-----------------')
 peso = input('Digite seu peso: ')
-
+print('-----------------')
 num1 = input('Digite o primeiro numero: ')
 num1 = int(num1)
-
+print('-----------------')
 num2 =  int(input('Digite o segundo numero: '))
+print('-----------------')
 
 #Códigos de cálculo entre as variáveis num1 e num2
 soma = num1 + num2
@@ -28,8 +30,11 @@ num1 += 1
 #num1 //= 1
 #num1 **= 1
 #num1 %= 1
+
 # FIXME:Operadoes matemáticos
-print("operadores matemáticos no print")
+print("\n")
+print('-----------------')
+print("Operadores matemáticos no print")
 print(num1 + num2)
 print(num1 - num2)
 print(num1 * num2)
@@ -37,7 +42,10 @@ print(num1 / num2)
 print(num1 ** num2)
 print(num1 // num2)
 print(num1 % num2)
+print('-----------------')
 # FIXME:Operadores comparativos
+print(" ")
+print('-----------------')
 print("Operadores comparativos")
 print(num1 > num2) # maior que
 print(num1 < num2) # menor que
@@ -45,6 +53,8 @@ print(num1 == num2) # igualdade
 print(num1 != num2) # diferente
 print(num1 <= num2) # menor ou igual
 
+print(num1 <= 100 and num2 <= 100 and (num1 + num2) > 100)
+print('-----------------')
 
 print("\n")
 print('-----------------')
