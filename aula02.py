@@ -17,4 +17,3 @@ div = num1 /3
 # Usando format para formatação numérica
 # limitando a quantidade de casas decimais
 print(f'O resultado da divisoa é: {div:.2f}')
-

@@ -1,35 +1,21 @@
-print("Olá Mundo")
 
-nome = 'Davi'
-idade = 17
-peso = 80.5
-altura = 1.79
-instrutor = True
+nome = input('Escreva o seu nome completo: ')
+email = input('Escreva o seu email: ')
+cpf = int(input('Digite o seu cpf: '))
+telefone = int(input('Digite o seu número de telefone: '))
 
-#FIXME:Visualizando os tipos de dados
-print(type(nome))
-print(type(idade))
-print(type(peso))
-print(type(altura))
-print(type(instrutor))
+alcool_mensal = 64 * 20 / 14
+gasolina_mensal = 64 * 20 / 12
 
+print("\n")
+print("------------")
+print("O seu nome completo é",nome)
+print("O seu email é:",email)
+print("O seu cpf é:",cpf)
+print("O seu telefone é:",telefone)
+print("••••••••••••")
+print(f"O uso mensal de alcool é:{alcool_mensal}litros")
+print(f"O uso mensal de gasolina é:{gasolina_mensal}litros")
+print("------------")
+print("\n")
 
-# FIXME:Entrada de dados
-
-sobrenome = input('Digite o seu sobrenome: ')
-
-print(nome, sobrenome)
-print(type(sobrenome))
-
-#Convertendo o valor do input
-
-idade = input('Digite sua idade: ')
-idade = int(idade)
-print(type(idade))
-
-ano = int(input('Em qual ano estamos: '))
-print(type(ano))
-
-if ano > 2024:
-    print("Fora do if")
-    
